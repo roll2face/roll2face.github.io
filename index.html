@@ -1,0 +1,57 @@
+<!doctype html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>roll2face · rol por chat</title>
+<meta name="description" content="Tu mesa de rol, en el bolsillo. Narra o juega historias por chat, con fichas, dados y mapas. Gratis.">
+<style>
+  :root { color-scheme: dark; }
+  * { box-sizing: border-box; }
+  body { margin: 0; min-height: 100vh; background: #0A0C14; color: #E5E7EB; font: 16px/1.6 system-ui, -apple-system, 'Segoe UI', sans-serif; display: flex; flex-direction: column; }
+  main { flex: 1; max-width: 640px; margin: 0 auto; padding: 72px 16px 40px; text-align: center; }
+  .name { font-size: clamp(48px, 13vw, 76px); font-weight: 800; letter-spacing: -1.5px; line-height: 1; color: #60A5FA; margin: 24px 0 8px; }
+  .name span { color: #FBBF24; }
+  .tag { font-size: 13px; letter-spacing: .32em; text-transform: uppercase; color: #94A3B8; margin: 0 0 32px; }
+  .lead { font-size: 1.15rem; color: #CBD5E1; margin: 0 0 12px; }
+  ul { list-style: none; padding: 0; margin: 32px 0; display: grid; gap: 10px; text-align: left; }
+  li { background: #111521; border: 1px solid #1E2337; border-radius: 12px; padding: 12px 16px; color: #CBD5E1; }
+  li b { color: #E5E7EB; }
+  .soon { display: inline-block; margin-top: 8px; padding: 8px 16px; border-radius: 999px; border: 1px solid #312E81; color: #C4B5FD; font-size: .9rem; }
+  footer { border-top: 1px solid #1E2337; padding: 20px 16px 28px; text-align: center; font-size: .85rem; color: #94A3B8; }
+  footer nav { display: flex; flex-wrap: wrap; justify-content: center; gap: 8px 20px; margin-bottom: 8px; }
+  a { color: #93C5FD; } a:hover { color: #BFDBFE; }
+</style>
+</head>
+<body>
+<main>
+  <svg width="120" height="120" viewBox="-110 -110 220 220" role="img" aria-label="Dado de veinte caras">
+    <g stroke="#0A0C14" stroke-width="3.5" stroke-linejoin="round">
+      <polygon points="0,-100 86.6,-50 86.6,50 0,100 -86.6,50 -86.6,-50" fill="#312E81"/>
+      <polygon points="0,-58 -86.6,-50 -50.2,29" fill="#6366F1"/>
+      <polygon points="0,-58 50.2,29 86.6,-50" fill="#4F46E5"/>
+      <polygon points="-50.2,29 50.2,29 0,100" fill="#4338CA"/>
+      <polygon points="0,-58 50.2,29 -50.2,29" fill="#60A5FA"/>
+    </g>
+    <text x="0" y="17" text-anchor="middle" font-family="system-ui, sans-serif" font-weight="800" font-size="56" fill="#0A0C14">2</text>
+  </svg>
+  <h1 class="name">roll<span>2</span>face</h1>
+  <p class="tag">rol por chat</p>
+  <p class="lead">Tu mesa de rol, en el bolsillo. Narra o juega historias por chat con tus amigos, estés donde estés.</p>
+  <ul>
+    <li><b>Crea tu personaje</b> con hoja libre o con las reglas de tu juego.</li>
+    <li><b>Únete a una mesa</b> o abre la tuya como narrador.</li>
+    <li><b>Tira los dados</b> desde el chat, con mapas y fichas para la escena.</li>
+  </ul>
+  <span class="soon">Próximamente en Google Play</span>
+</main>
+<footer>
+  <nav>
+    <a href="legal/privacidad.html">Aviso de privacidad</a>
+    <a href="legal/terminos.html">Términos y condiciones</a>
+    <a href="legal/borrar-cuenta.html">Borrar tu cuenta</a>
+  </nav>
+  Contacto: <a href="mailto:roll2face.app@gmail.com">roll2face.app@gmail.com</a>
+</footer>
+</body>
+</html>
