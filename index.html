@@ -21,7 +21,10 @@
   ul { list-style: none; padding: 0; margin: 32px 0; display: grid; gap: 10px; text-align: left; }
   li { background: #111521; border: 1px solid #1E2337; border-radius: 12px; padding: 12px 16px; color: #CBD5E1; }
   li b { color: #E5E7EB; }
-  .soon { display: inline-block; margin-top: 8px; padding: 8px 16px; border-radius: 999px; border: 1px solid #312E81; color: #C4B5FD; font-size: .9rem; }
+  .get { display: inline-flex; align-items: center; gap: 10px; margin-top: 8px; padding: 14px 26px; border-radius: 999px; background: #7C3AED; color: #fff; font-weight: 700; font-size: 1.05rem; text-decoration: none; box-shadow: 0 8px 24px rgba(124, 58, 237, .35); }
+  .get:hover { background: #6D28D9; color: #fff; }
+  .get svg { width: 22px; height: 22px; }
+  .note { margin: 12px 0 0; font-size: .85rem; color: #94A3B8; }
   footer { border-top: 1px solid #1E2337; padding: 20px 16px 28px; text-align: center; font-size: .85rem; color: #94A3B8; }
   footer nav { display: flex; flex-wrap: wrap; justify-content: center; gap: 8px 20px; margin-bottom: 8px; }
   a { color: #93C5FD; } a:hover { color: #BFDBFE; }
@@ -38,7 +41,11 @@
     <li><b>Únete a una mesa</b> o abre la tuya como narrador.</li>
     <li><b>Tira los dados</b> desde el chat, con mapas y fichas para la escena.</li>
   </ul>
-  <span class="soon">Próximamente en Google Play</span>
+  <a class="get" href="https://play.google.com/store/apps/details?id=io.github.roll2face" rel="noopener">
+    <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M5 3.5v17a.5.5 0 0 0 .76.43l14.5-8.5a.5.5 0 0 0 0-.86L5.76 3.07A.5.5 0 0 0 5 3.5z"/></svg>
+    Descárgala gratis en Google Play
+  </a>
+  <p class="note">Disponible para Android.</p>
 </main>
 <footer>
   <nav>
